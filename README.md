@@ -1,8 +1,8 @@
 # Plex Export Dark Mode
-This is a Dark mode for Plex Export 
+Dark Mode template for Plex Export Plug-in
 
-This is a template created by DpDesignz and modified by me to create a Dark Mode for the PLEX Export plug-in.
-Original design template can be found on: https://github.com/dpDesignz/plex-export-responsive-skin
+This is a template based on files created by DpDesignz and modified by me in order to have a Dark Mode for the PLEX Export plug-in.
+Original design template (Vanilla) can be found on: https://github.com/dpDesignz/plex-export-responsive-skin
 
 Note: To use the Dark Mode, you have to use all the files from this repository.
 
