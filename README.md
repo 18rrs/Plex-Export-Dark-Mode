@@ -1,4 +1,4 @@
-# Plex-Export-Dark
+# Plex Export Dark Mode
 This is a Dark mode for Plex Export 
 
 This is a template created by DpDesignz and modified by me to create a Dark Mode for the PLEX Export plug-in.
