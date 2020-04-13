@@ -6,8 +6,7 @@ Original design template can be found on: https://github.com/dpDesignz/plex-expo
 
 Note: To use the Dark Mode, you have to use all the files from this repository.
 
-Install:
-
+# Install:
 Just download the repo archive and rewrite the original files. Please first, make a back-up of your files, just in case..
 
 
