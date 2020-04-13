@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head profile="http://www.w3.org/2005/10/profile">
+	<meta charset=utf-8 />
+	<title>Plex Export</title>
+	<meta name="viewport" content="initial-scale=1,minimum-scale=1,maximum-scale=1" />
+	<link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+
+	<script src="assets/js/utils.js"></script>
+	<script src="assets/js/dark-plex.js"></script>
+	<script>
+		ready(() => {
+			PLEX.run();
+		});
+	</script>
+</head>
+<!-- 
+This file is modified for Dark Mode template created by Dragos
+https://github.com/themsk666/Plex-Export-Dark
+ -->
+<body>
+	<header id="header">
+		<h1><span>Plex Export</span></h1>
+		
+		<section id="search">
+						<input placeholder="Search..." type="text" />
+					</section>
+	</header><!-- end #header -->
+	<div id="item-list-status">
+				Loading data from PLEX...
+			</div>
+	<main class="container" id="container" style="display:none">
+		<aside id="sidebar">
+			
+			<section id="sidebar-menu">
+				<!-- end .sidebar-section -->
+				<div class="sidebar-section">
+					<h2>Listing by...</h2>
+					<ul class="generic-list" id="plex_sort_list">
+						<li class="current" data-sort="title"><em>asc</em>Title</li>
+						<li data-sort="rating">Rating</li>
+						<li data-sort="release">Release Date</li>
+						<li data-sort="addedAt">Added Date</li>
+					</ul>
+				</div><!-- end .sidebar-section -->
+				
+				<div class="sidebar-section" id="plex_genre_list_section">
+					<h2>Genders</h2>
+					<ul class="generic-list" id="plex_genre_list"></ul>
+				</div><!-- end .sidebar-section -->
+				<div class="sidebar-section" id="plex_director_list_section">
+					<h2>Directors</h2>
+					<ul class="generic-list" id="plex_director_list"></ul>
+				</div><!-- end .sidebar-section -->
+			</section>
+		</aside><!-- end #sidebar -->
+		<main id="main">
+		
+			
+				
+					<section id="section-header">
+					 <div class="sidebar-section">
+					 <ul class="sections-list" id="plex_section_list">					
+					</ul>	</div>
+					
+				
+			</section><!-- end .section-header -->
+			<div id="section_num_items"></div>
+			
+			<div id="item-list">
+				<ul></ul>
+			</div>
+		</main><!-- end #main -->
+	</main><!-- end #container -->
+	<footer id="footer">
+		<p>PLEX Export By MSK  | <span id="last_updated"></span> 
+	 </p></footer><!-- end #footer -->
+	<div id="popup-overlay"></div>
+	<div id="popup-container"></div>
+<script>
+	window.onscroll = function() {myFunction()};
+var header = document.getElementById("section-header");
+var sticky = header.offsetTop;
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+   // header.classList.add("sticky");
+  } else {
+   // header.classList.remove("sticky");
+  }
+} 
+</script>
+</body>
+
+</html>
